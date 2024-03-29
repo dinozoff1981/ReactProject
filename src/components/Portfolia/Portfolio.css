@@ -1,0 +1,87 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ 
+}
+
+.progressBarContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+
+h1 {
+    text-align: center;
+    color: #dd6b0e;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(135deg, #02b875, #4181ee);
+    padding: 30px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #FFF;
+    margin: 20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+.lang{
+
+    font-size: 24px;
+    color: #200a9c;
+    text-align: left;
+}
+
+.card-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: brown;
+    text-decoration: underline;
+
+}
+
+.card-content {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.card-btn {
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    color: black;
+}
+
+.card-btn:hover {
+    color: #02b875;
+    background: #FFF;
+}

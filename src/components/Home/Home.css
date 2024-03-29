@@ -1,0 +1,89 @@
+.intro {
+
+    height: 100vh ;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index:-2;
+ 
+
+}
+
+.photo {
+
+    position: absolute;
+    top: 0rem;
+    bottom: 40rem;
+    right: 0 auto;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.introcontent {
+
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+ 
+
+
+}
+
+.introname {
+
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+.span {
+
+    text-align: center;
+}
+
+
+.intropara {
+
+    font-size: medium;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.introtext {
+
+    color: yellow;
+
+
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+
+    .introcontent {
+
+        font-size: 1.8rem;
+
+    }
+
+   
+
+
+}
