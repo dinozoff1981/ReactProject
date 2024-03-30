@@ -10,17 +10,17 @@ const Contact = () => {
       <div className="contact-box">
         <div className="contact-links">
           <h2>CONTACT </h2>
-          <div className="links">
+          <div className="Nav-links">
 
-            <div className="link">
+            <div className="Nav-link">
 
               <a href="https://linkedin.com"><img src="https://i.postimg.cc/m2mg2Hjm/linkedin.png"  alt="linkedin" /></a>
             </div>
-            <div className="link">
+            <div className="Nav-link">
               <a href="https://github.com/dinozoff1981?tab=repositories"><img src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github" /></a>
             </div>
           
-            <div className="link">
+            <div className="Nav-link">
               <a href="https://yahoo.com"><img src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
             </div>
 
