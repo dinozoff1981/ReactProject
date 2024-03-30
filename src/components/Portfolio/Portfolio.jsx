@@ -35,7 +35,6 @@ const Portfolio = () => {
                 {repos.map((repo, id) => (
                     <div className="cards" key={repo.id}>
                         <h3 className="card-title">{repo.name}</h3>
-                        <p className="card-content">{repo.description}</p>
                         <h2 className='lang'>{repo.language}</h2>
                         <p>{repo.created_at}</p>
                         <Button className="card-btn" href={htmlUrls[id]} target="_blank">Go To Git Repo</Button>
