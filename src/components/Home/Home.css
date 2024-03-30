@@ -5,23 +5,12 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    z-index:-2;
+    z-index:-1;
  
 
 }
 
-.photo {
 
-    position: absolute;
-    top: 0rem;
-    bottom: 40rem;
-    right: 0 auto;
-    z-index: -1;
-    object-fit: cover;
-    height: 100vh;
-    width: 100vw;
-
-}
 
 .introcontent {
 

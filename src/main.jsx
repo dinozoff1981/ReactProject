@@ -1,19 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-  
-    <BrowserRouter >
-    
+    <Router>
+      <Navbar />
       <App />
-     
-    </BrowserRouter>
-    
+      <Footer />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

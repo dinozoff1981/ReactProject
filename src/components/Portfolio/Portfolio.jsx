@@ -28,6 +28,7 @@ const Portfolio = () => {
 
     return (
         <div>
+            <br /><br />
             <h1>MY PROJECTS</h1><br /><br />
             {loading && <ProgressBar now={100} label="Loading... Please Wait" />}
             <div className="wrapper">

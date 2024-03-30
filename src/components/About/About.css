@@ -4,6 +4,7 @@ body{
   background-image:url('../../images/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  
  
 }
 
@@ -26,7 +27,7 @@ body{
 
 .container-about .left_Side {
   position: relative;
-  background-color: #003147;
+  background-color: #072a3a;
   padding: 70px;
 }
 

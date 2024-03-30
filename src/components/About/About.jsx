@@ -3,9 +3,12 @@ import Resumes from '../About/resume.json';
 import './About.css';
 import photo from '../../images/dino.jpeg';
 
+
 function About() {
   return (
+
     <div className="container-about">
+      
       <div className="left_Side">
         <div className="profileText">
           <div className="imgBx">
